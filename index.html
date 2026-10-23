@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zhao Zhao | CV</title>
+<meta name="description" content="Zhao Zhao: MSc AI in Medicine student at NTU Singapore. Healthcare AI, medical imaging, machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fbfaf7; --paper: #ffffff; --ink: #1d1d1b; --ink-2: #4a4945; --muted: #7a7873;
+    --rule: #e6e3dc; --accent: #1f5f8b; --accent-soft: #eaf2f8; --tag: #f2f0ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141413; --paper: #1b1b1a; --ink: #efede8; --ink-2: #c9c6bf; --muted: #9a978f;
+      --rule: #2f2e2b; --accent: #7fb6dd; --accent-soft: #1d2a33; --tag: #262522;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.6 Inter, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 820px; margin: 40px auto; padding: 48px 56px; background: var(--paper);
+         border: 1px solid var(--rule); border-radius: 6px; }
+  h1 { font-family: "Source Serif 4", Georgia, serif; font-weight: 600; font-size: 38px;
+       letter-spacing: -0.01em; margin: 0 0 4px; }
+  .role { color: var(--ink-2); font-size: 16px; margin: 0 0 14px; }
+  .contact { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; color: var(--muted); }
+  .contact a { color: var(--accent); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  h2 { font-family: "Source Serif 4", Georgia, serif; font-weight: 600; font-size: 19px;
+       margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+  .summary { margin-top: 22px; color: var(--ink-2); }
+  .item { margin: 0 0 18px; }
+  .row { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; }
+  .title { font-weight: 600; }
+  .org { color: var(--ink-2); }
+  .date { color: var(--muted); font-size: 13.5px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  ul { margin: 6px 0 0; padding-left: 18px; }
+  li { margin: 3px 0; color: var(--ink-2); }
+  .links { font-size: 13.5px; margin-top: 4px; }
+  .links a { color: var(--accent); text-decoration: none; margin-right: 14px; }
+  .links a:hover { text-decoration: underline; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+  .tag { background: var(--tag); border-radius: 4px; padding: 2px 8px; font-size: 13px; color: var(--ink-2); }
+  .skills { display: grid; grid-template-columns: 150px 1fr; gap: 8px 16px; }
+  .skills dt { font-weight: 500; color: var(--ink); }
+  .skills dd { margin: 0; color: var(--ink-2); }
+  .highlight { background: var(--accent-soft); border-radius: 4px; padding: 1px 5px; }
+  footer { max-width: 820px; margin: 0 auto 40px; padding: 0 16px; color: var(--muted); font-size: 12.5px; text-align: center; }
+  @media (max-width: 640px) {
+    main { margin: 0; padding: 28px 16px; border: 0; border-radius: 0; }
+    h1 { font-size: 30px; }
+    .row { flex-direction: column; gap: 0; }
+    .skills { grid-template-columns: 1fr; gap: 2px; }
+    .skills dd { margin-bottom: 8px; }
+  }
+  @media print {
+    body { background: #fff; font-size: 12.5px; }
+    main { margin: 0; padding: 0; border: 0; max-width: none; }
+    footer { display: none; }
+    h2 { margin-top: 20px; }
+    a { color: inherit !important; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Zhao Zhao</h1>
+  <p class="role">MSc AI in Medicine · Lee Kong Chian School of Medicine, NTU Singapore</p>
+  <div class="contact">
+    <span>Singapore</span>
+    <a href="mailto:EMAIL_PLACEHOLDER">EMAIL_PLACEHOLDER</a>
+    <a href="https://github.com/ZHAO-ZHAOo">github.com/ZHAO-ZHAOo</a>
+    <!-- <a href="https://www.linkedin.com/in/YOUR-ID">LinkedIn</a> -->
+  </div>
+
+  <p class="summary">Computer-science graduate (data science) now training in AI for medicine. I build and evaluate
+  machine-learning systems for healthcare, with a focus on medical imaging and on the questions that decide
+  whether a model is safe to deploy: calibration, decision thresholds and robustness to shifts in data.</p>
+
+  <h2>Education</h2>
+  <div class="item">
+    <div class="row"><span class="title">MSc, AI in Medicine</span><span class="date">2026 – present</span></div>
+    <div class="org">Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore</div>
+    <ul>
+      <li>Coursework: deep learning for healthcare AI (CNNs, transformers, interpretability), machine learning for healthcare,
+        human anatomy and physiology, healthcare AI innovation and entrepreneurship.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><span class="title">BSc (Hons), Computer Science (Data Science)</span><span class="date">2021 – 2025</span></div>
+    <div class="org">National University of Malaysia (UKM)</div>
+    <ul><li>GPA 3.52 / 4.00</li></ul>
+  </div>
+
+  <h2>Publication</h2>
+  <div class="item">
+    <div class="title">Prostate TRUS Image Segmentation Using Autoencoder-Based Convolutional Neural Network</div>
+    <div class="org"><em>Consumer Electronics Magazine</em>, September 2024</div>
+  </div>
+
+  <h2>Selected projects</h2>
+  <div class="item">
+    <div class="row"><span class="title">What matters for paediatric pneumonia detection with small CNNs?</span><span class="date">Oct 2026</span></div>
+    <div class="org">MD6329 final project · PyTorch</div>
+    <ul>
+      <li>Controlled study on 5,856 paediatric chest X-rays (PneumoniaMNIST): logistic regression, MLP and a plain / BatchNorm / residual
+        CNN family at 28, 64 and 128 px, three seeds each (66 training runs).</li>
+      <li>Best model: <span class="highlight">test AUROC 0.989</span>; 64 px matched 128 px at about one sixth of the compute.</li>
+      <li>Showed that the decision threshold, not the ranking, is the fragile part: under simulated acquisition shift, AUROC stayed
+        at 0.98 while specificity at the deployed threshold collapsed. Grad-CAM evidence moved into the lung fields only at higher resolution.</li>
+    </ul>
+    <div class="links">
+      <a href="https://github.com/ZHAO-ZHAOo/md6329-pneumonia-cnn">Code</a>
+      <a href="https://zhao-zhaoo.github.io/md6329-pneumonia-cnn/">Interactive walkthrough</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="row"><span class="title">AskaMa: menstrual-health self-triage assistant</span><span class="date">Sep – Oct 2026</span></div>
+    <div class="org">AI CAN DO IT: Tencent Cloud AI Hackathon Singapore 2026, Healthcare track · team of 3</div>
+    <ul>
+      <li>Safety-first triage assistant for women in Singapore: an LLM extracts symptoms into structured fields, while versioned
+        rule tables and red-flag rules decide one of four care tiers, plus a doctor-readable symptom summary.</li>
+      <li>Designed for clinical safety: red flags always override, uncertainty raises the tier, privacy-minimised sessions, logging for clinician review.</li>
+    </ul>
+    <div class="links">
+      <a href="https://github.com/ZHAO-ZHAOo/AskaMa">Code</a>
+      <a href="https://askama.onrender.com">Live demo</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="row"><span class="title">ICU in-hospital mortality prediction</span><span class="date">Sep – Oct 2026</span></div>
+    <div class="org">MD6117 group project · 12,000 ICU stays, 48-hour observations (MIMIC-like)</div>
+    <ul>
+      <li>Led the mortality-prediction task: data parsing, exploratory analysis, cleaning, feature engineering and selection,
+        and the modelling and clinically oriented evaluation.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><span class="title">Tongue DX: tongue-image AI for metabolic liver disease screening</span><span class="date">2026</span></div>
+    <ul>
+      <li>Evidence review of tongue-image analysis for MASLD screening and TAM/SAM/SOM market sizing for a pitch.</li>
+    </ul>
+  </div>
+
+  <h2>Experience</h2>
+  <div class="item">
+    <div class="row"><span class="title">IT Developer Intern</span><span class="date">Mar 2025 – Aug 2025</span></div>
+    <div class="org">Jarvis Software Technology</div>
+    <ul><li>Full-stack web development with Django and Vue.</li></ul>
+  </div>
+  <div class="item">
+    <div class="row"><span class="title">IT Developer Intern</span><span class="date">Aug 2023 – Sep 2023</span></div>
+    <div class="org">Beijing KUWO Technology</div>
+    <ul><li>Data preparation and model training for machine-learning tasks.</li></ul>
+  </div>
+
+  <h2>Skills</h2>
+  <dl class="skills">
+    <dt>Machine learning</dt><dd>PyTorch, scikit-learn, pandas, NumPy; CNNs, RNN/LSTM/GRU; evaluation, calibration, Grad-CAM</dd>
+    <dt>Software</dt><dd>Python, Django, Vue, Git/GitHub, LaTeX</dd>
+    <dt>Healthcare AI</dt><dd>Medical image classification and segmentation, clinical prediction from EHR data, triage safety design</dd>
+    <dt>Languages</dt><dd>Mandarin Chinese (native), English</dd>
+  </dl>
+</main>
+<footer>Updated October 2026</footer>
+</body>
+</html>
